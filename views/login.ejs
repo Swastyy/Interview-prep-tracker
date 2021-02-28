@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Interview Tracker</title>
+    <!-- <link rel="icon" href="../images/swc_icon.ico" /> -->
+    <style>
+      body {
+        font-family: arial;
+        margin: 0;
+      }
+      nav {
+        background: skyblue;
+        padding: 20px 10px;
+      }
+      nav ul {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0;
+      }
+      nav li {
+        list-style-type: none;
+        display: inline-block;
+        margin: 0 10px 0 0;
+    }
+      nav a {
+        color: black;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0.2);
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+      }
+      main,
+      header {
+        max-width: 960px;
+        margin: 30px auto;
+        padding: 0 10px;
+        color: #333;
+      }
+      .outlook-btn {
+        color: #fff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 10px;
+        background: #ff5353;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/login" method="POST">
+      <img class="mb-4" src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+      <h1 class="h3 mb-3 fw-normal">Please login</h1>
+  
+      <!-- <input type="text" class="form-control top" placeholder="Name" required> -->
+      <input type="email" name="email" class="form-control middle" placeholder="Email address" required autofocus>
+      <input type="password" name="password" class="form-control bottom" placeholder="Password" required>
+      
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
+      <p class="mt-5 mb-3 text-muted">&copy; Here</p>
+    </form>
+  </body>
+</html>
